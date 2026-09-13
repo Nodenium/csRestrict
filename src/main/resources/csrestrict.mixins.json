@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.nodenium.csrestrict.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"TeleportBlockMixin",
+		"TabListFilterMixin",
+		"SpectatorSyncMixin",
+		"ClientboundPlayerInfoUpdatePacketAccessor",
+		"ServerGamePacketListenerImplAccessor",
+		"CommandDetectionMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

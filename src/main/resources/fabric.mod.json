@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "csrestrict",
+	"version": "${version}",
+	"name": "csRestrict",
+	"description": "Blocks non-operator players from using spectator (/cs) to teleport-view real players, while still allowing them to view Carpet fake players.",
+	"authors": [
+		"Project Nodenium"
+	],
+	"license": "CC0-1.0",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.nodenium.csrestrict.CsRestrictMod"
+		]
+	},
+	"mixins": [
+		"csrestrict.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
