@@ -49,7 +49,7 @@ Requires JDK 25.
 ./gradlew build
 ```
 
-The built jar is in `build/libs/csrestrict-1.0.0.jar`.
+The built jar is in `build/libs/csrestrict-1.0.1.jar`.
 
 ## Installing
 
